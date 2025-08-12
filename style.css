@@ -1,0 +1,42 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: lightsalmon; /* Mobile-first default */
+}
+
+.card-container {
+  /*  Add Flexbox here, e.g., display: flex; flex-wrap: wrap; */
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 300px; /*  Make responsive with media queries */
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card a {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Demo responsive background - Add queries for layout */
+@media (min-width: 600px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+@media (min-width: 800px) {
+  body {
+    background-color: gainsboro;
+  }
+}
